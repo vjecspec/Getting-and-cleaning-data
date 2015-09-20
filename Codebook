@@ -1,2 +1,10 @@
 # CODEBOOK
-## This file will contain the explanation of what every variable in R function contains and which purpose it has
+## This file will contain the explanation of the variables found in the tidy_data
+
+subject = person who was subjected to the testing, in total 30 subjects
+activityNUM = number of the activity, each number corresponds to the certain activity, numbers from 1-6
+activityName = name of activity, there are 6 different activity names (WALKING,WALKING_UPSTARIS,WALKING_DOWNSTAIRS,LAYING,SITTING,STANDING)
+featureID = number of the feature,containg numbers of only those features that have "mean" or "std" in their name
+featureCode = help variable, contains the same numbers as the featureID, only with the letter V in front
+featureName = name of the measured feature, only names with "mean" or "std" in their name
+mean = mean value of the frequency/time measurement
